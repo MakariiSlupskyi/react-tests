@@ -6,8 +6,8 @@ function App() {
 
   return (
     <>
-      <Card />
-      <Card />
+      <Card title="Makarii Slupskyi" />
+      <Card title="Evan Milkovskyi" />
       <Card />
     </>
   );
