@@ -1,14 +1,11 @@
-import Card from './Card.jsx'
+import MyComp from './MyComp.jsx'
+import Counter from './Counter.jsx'
 // import './App.css'
 
-
 function App() {
-
   return (
     <>
-      <Card title="Makarii Slupskyi" />
-      <Card title="Evan Milkovskyi" />
-      <Card />
+        <Counter />
     </>
   );
 }

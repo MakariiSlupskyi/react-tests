@@ -13,6 +13,7 @@ function Card(props) {
 
 Card.propTypes = {
     title: PropTypes.string,
+    about: PropTypes.string,
 }
 
 Card.defaultProps = {
