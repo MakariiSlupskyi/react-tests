@@ -6,10 +6,11 @@ import OnChangeForm from './components/OnChangeForm.jsx'
 import ProfilePicture from './components/ProfilePicture.jsx'
 import ColorPicker from './components/ColorPicker.jsx'
 import Objects from './components/Objects.jsx'
+import Arrays from './components/Arrays.jsx'
 
 function App() {
   return (
-    <Objects />
+    <Arrays />
   );
 }
 
