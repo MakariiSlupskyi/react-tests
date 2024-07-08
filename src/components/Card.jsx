@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types' 
-import profilePic from './assets/profile.jpg'
+import profilePic from '../assets/profile.jpg'
 
 function Card(props) {
     return (

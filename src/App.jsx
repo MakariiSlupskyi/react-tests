@@ -4,10 +4,11 @@ import Counter from './components/Counter.jsx'
 import List from './components/List.jsx'
 import OnChangeForm from './components/OnChangeForm.jsx'
 import ProfilePicture from './components/ProfilePicture.jsx'
+import ColorPicker from './components/ColorPicker.jsx'
 
 function App() {
   return (
-    <OnChangeForm />
+    <Counter />
   );
 }
 
