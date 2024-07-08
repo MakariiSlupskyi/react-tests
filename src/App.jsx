@@ -1,12 +1,9 @@
-import MyComp from './MyComp.jsx'
-import Counter from './Counter.jsx'
+import OnChangeForm from './OnChangeForm.jsx'
 // import './App.css'
 
 function App() {
   return (
-    <>
-        <Counter />
-    </>
+    <OnChangeForm />
   );
 }
 
