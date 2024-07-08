@@ -7,10 +7,11 @@ import ProfilePicture from './components/ProfilePicture.jsx'
 import ColorPicker from './components/ColorPicker.jsx'
 import Objects from './components/Objects.jsx'
 import Arrays from './components/Arrays.jsx'
+import Cars from './components/Cars.jsx'
 
 function App() {
   return (
-    <Arrays />
+    <Cars />
   );
 }
 
