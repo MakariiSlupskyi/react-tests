@@ -66,3 +66,204 @@ input[type="color"] {
   border: 4px solid rgb(201, 201, 201);
   border-radius: 10px;
 }
+
+
+/* 
+.to-do-list {
+  color: rgb(63, 63, 63);
+  font-family: Arial;
+
+  max-width: 60%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.to-do-list li, input, button {
+  border-radius: 20px;
+
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+
+.to-do-list button {
+  padding: 0.5em 1em;
+
+  border-radius: 50px;
+  border: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.089);
+  color: white;
+}
+
+.to-do-list .task-input-area * {
+  margin: 5px;
+  padding: 0.75em 1em;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.089);;
+}
+
+.to-do-list .task-input-area input {
+  border: 1px solid rgb(250, 250, 250);
+  border-radius: 5em;
+}
+
+.to-do-list .task-input-area button {
+  background-color: #58e276;
+}
+
+.to-do-list .task {
+  display: flex;
+  align-items: center;
+
+  margin: 20px;
+}
+
+.to-do-list .task li {
+  display: flex;
+  margin: 0px 10px;
+  font-size: 1.5rem;
+}
+
+.to-do-list .task  {
+  display: flex;
+  margin: 0px 10px;
+  font-size: 1.5rem;
+}
+
+.to-do-list .task button {
+  background-color: #ec5757e7;
+}
+
+.to-do-list .arrow-btn-container button {
+  display: flex;
+  background-color: white;
+  font-size: 1rem;
+  padding: 0;
+  margin-left: 5px;
+} */
+
+.to-do-list * {
+  /* outline: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  color: rgb(50, 50, 50);
+  transition: 0.3s;
+}
+
+.to-do-list {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  font-family: Helvetica;
+
+  max-width: 60%;
+  margin: auto;
+}
+
+.to-do-list h1 {
+  text-align: center;
+  margin: 20px;
+  padding: 30px;
+}
+
+.to-do-list .input-area {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.to-do-list input {
+  padding: 0.5em;
+  margin: 0px 10px;
+  border: 2px solid rgb(221, 221, 221);
+  border-radius: 50px;
+}
+
+.to-do-list button, .to-do-list input {
+  font-size: 1rem;
+  font-weight: bolder;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.233);
+  padding: 0.5em 1em;
+  margin: 0px 10px;
+  border: none;
+  border-radius: 50px;
+}
+
+.to-do-list .input-area button {
+  background-color: rgb(112, 194, 112);
+  color: white;
+}
+
+.to-do-list .input-area *:hover {
+  transform: scale(1.05);
+}
+
+.to-do-list .input-area button:hover {
+  background-color: rgb(99, 168, 99);
+}
+
+.to-do-list .no-tasks {
+  color: rgb(202, 202, 202);
+  margin: 30px;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.to-do-list ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.to-do-list li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 1em;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.075);
+}
+
+.to-do-list .text {
+  font-family: Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  min-width: 0px;
+  flex-wrap: wrap;
+}
+
+.to-do-list .text:hover {
+  transform: scale(1.05);
+}
+
+.to-do-list .delete-btn {
+  margin-left: auto;
+  background-color: #e74d4d;
+  color: white;
+}
+
+.to-do-list .delete-btn:hover {
+  background-color: #c04848;
+  transform: scale(1.05);
+}
+
+.to-do-list .arrow-btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.to-do-list .arrow-btn-container button {
+  padding: 0;
+  margin: 2px;
+  background-color: #fff;
+  border: none;
+  box-shadow: none;
+}
+
+.to-do-list .arrow-btn-container button:hover {
+  transform: scale(1.3);
+}

@@ -8,11 +8,12 @@ import ColorPicker from './components/ColorPicker.jsx'
 import Objects from './components/Objects.jsx'
 import Arrays from './components/Arrays.jsx'
 import Cars from './components/Cars.jsx'
+import ToDoList from './components/ToDoList.jsx'
 
 function App() {
-  return (
-    <Cars />
-  );
+  return (<>
+    <ToDoList />
+  </>);
 }
 
-export default App
+export default App;
